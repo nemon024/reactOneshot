@@ -6,15 +6,7 @@ const App = () =>{
 
   return(
     <div>
-      <h3>Number is {num}</h3>
-      <button onClick = {function(){
-        setNum(num+10)
-      }}>Increment</button>
-      <button onClick = {
-        function (){
-          setNum(num-10)
-        }
-      }>Decrement</button>
+      <h2 className="text-5xl bg-red-950">Hello gys</h2>
     </div>
     
   )
