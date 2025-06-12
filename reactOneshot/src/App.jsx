@@ -2,28 +2,19 @@
 import React, {useState} from 'react'
 const App = () =>{
 
-  // let user ="naman"
-
-  const [user , nameChange] = useState('naman')
-  const [a , setA] = useState(10)
-
-  const changeUser =()=>{
-    nameChange("mohit")
-  }
-
-  const changeA = () =>{
-    setA(20)
-  }
+ const [num , setNum] = useState(0)
 
   return(
     <div>
-     <h1>Username is {user}</h1>
-     {/* {} bracker are used to a call a parameter or a variable in the function  */}
-     <button onClick={changeUser}>Change User</button>
-
-
-     <h1>Value of a is {a}</h1>
-     <button onClick={changeA}>Change A </button>
+      <h3>Number is {num}</h3>
+      <button onClick = {function(){
+        setNum(num+10)
+      }}>Increment</button>
+      <button onClick = {
+        function (){
+          setNum(num-10)
+        }
+      }>Decrement</button>
     </div>
     
   )
