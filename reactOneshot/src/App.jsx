@@ -4,11 +4,20 @@ const App = () =>{
 
  const [num , setNum] = useState(0)
 
+ const submitHandler = (e) =>{
+  e.preventDefault()
+  console.log("submitted")
+ }
+
   return(
     <div>
-      <h2 className="text-5xl bg-red-950">Hello gys</h2>
-    </div>
-    
+      <form action="" onSubmit={(e) =>{
+        submitHandler(e)
+      }}>
+        <input className="px-4 py-3 text-xl m-5" type="" placeholder="Enter you name" />
+        <button className="px-4 m-5 py-3 text-xl font-semibold bg-emerald-600 rounded text-white">Submit</button>
+      </form>
+    </div>  
   )
 }
 
