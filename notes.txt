@@ -3,3 +3,7 @@ jsx = javascript + xml
 hooks usestate is used to change the state of a element 
 
 index.html ka bacha hai main.jsx and main.jsx ka bacha hai App.jsx
+
+
+Components
+
