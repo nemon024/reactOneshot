@@ -7,3 +7,4 @@ index.html ka bacha hai main.jsx and main.jsx ka bacha hai App.jsx
 
 Components
 
+Props and props drilling
