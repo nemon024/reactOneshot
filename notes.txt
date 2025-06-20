@@ -4,7 +4,14 @@ hooks usestate is used to change the state of a element
 
 index.html ka bacha hai main.jsx and main.jsx ka bacha hai App.jsx
 
+useState hooks (variable of react)
 
 Components
 
 Props and props drilling
+
+Rendering JSON data
+
+Integrating API(axios)
+
+useEffect is used for to use the code time to time
