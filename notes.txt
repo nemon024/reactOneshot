@@ -15,3 +15,7 @@ Rendering JSON data
 Integrating API(axios)
 
 useEffect is used for to use the code time to time
+
+Router help us to create and manage navigation b/w different components ( <Routers><Route><Route></Router>) or "pages" in your application without reloading the browser using <Link to={}></Link>
+  to install react router use install (npm i react-router-dom)
+  use <BrowserRouter> covering the <App /> inside main.jsx
